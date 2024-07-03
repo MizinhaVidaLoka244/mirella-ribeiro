@@ -1,10 +1,11 @@
-{
+*{
     margin: 0;
     padding: 0;
 }
 
-.cabecalho{background-color: rgba(22, 31, 156, 0.89);
-color: aquamarine;
+.cabecalho {
+background-color:#259add;
+color: rgb(241, 241, 241);
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -23,11 +24,22 @@ padding: 20px 0;
 
 }
 
-.escola.imagem{
+.escola-imagem{
     width: 25%;
 }
 
 .escola{
-    background-image: linear-gradient(#370469,#8f57c7);
+    background-image: linear-gradient(#259add,#306ad4);
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0%;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+.escola-titulo{
+    padding: 24px 0;
 }
